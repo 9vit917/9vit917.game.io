@@ -1,0 +1,30 @@
+body {
+  font-family: arial, sans-serif;
+  font-size: 16px;
+}
+.wrapper {
+  width: 600px;
+  height: 360px;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 1px solid black;
+  z-index: 1;
+  box-sizing: border-box;
+}
+#game-over {
+  width:120px;
+  height:35px;
+  background-color:grey;
+  font-size: 25px;
+  text-align: center;
+  z-index: 7;
+  position: absolute;
+  top:180px;
+  left:335px;
+}
